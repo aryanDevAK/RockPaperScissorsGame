@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  background-color: black;
+  margin: 10px;
+  text-align: center;
+  border: 3px solid black;
+}
+.main h1 {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border-bottom: 3px solid black;
+}
+.main .results {
+  display: flex;
+  background-color: silver;
+  justify-content: space-around;
+  font-size: 1.2em;
+  padding: 10px;
+  font-weight: bold;
+  border-bottom: 3px solid black;
+}
+.main .container {
+  padding: 20px;
+  color: white;
+}
+.main .buttons {
+  padding: 10px;
+  background-color: silver;
+  display: flex;
+  justify-content: space-evenly;
+  border-top: 3px solid black;
+}
+.main .buttons .choiceBtn {
+  background: transparent;
+  margin: 5px;
+  width: 33%;
+  padding: 10px;
+  font-size: 1.2em;
+  border: 2px solid black;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.main .buttons .choiceBtn:hover {
+  background-color: gray;
+  font-weight: bold;
+}
